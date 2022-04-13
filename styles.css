@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+input {
+    font-size: 16px;
+}
+
+div {
+    font-family: Roboto,arial,saint-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.inner-div {
+    background-color: rgb(247, 247, 247);
+    height: 44px;
+    width: 638px;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    margin: 11px 4px;
+
+
+}
+
+.input-field {
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    height: 35px;
+    width: 570px;
+    border: 0px;
+}
+
+.title {
+    font-family: Roboto,arial,saint-serif;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #bdbdbe;
+    border: 1px solid #bdbdbe;
+    border-radius: 4px;
+    margin: 21px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-link {
+    font-family: Roboto,arial,saint-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: 30px;
+}
