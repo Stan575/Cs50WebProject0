@@ -5,10 +5,56 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <p style="font-size: 20px;">Andvanced search</p>
+        <div>
+            <a class="index-link" href="index.html">Google Search</a>
+        </div>
+        <div class="appbar">
+            <label style="margin-left:10px">Andvanced Search</label>
+        </div>
+        <div class="bbb"></div>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="container">
+                <div>
+                    <div class="s-size">
+                        <span class="col-1">Find pages with...</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s-size col-1 row">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="col-2">
+                        <input class="as-textinput" value autofocus="autofocus" name="as_q" type="text" maxlength="155">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s-size col-1 row">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="col-2">
+                        <input class="as-textinput" value  name="as_epq" type="text" maxlength="155">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s-size col-1 row">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="col-2">
+                        <input class="as-textinput" value  name="as_oq" type="text" maxlength="155">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="s-size col-1 row">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="col-2">
+                        <input class="as-textinput" value  name="as_eq" type="text" maxlength="155">
+                    </div>
+                </div>
+                <div class="right">
+                    <input class="adv-btn" type="submit" value="Advanced Search">
+                </div>    
+            </div>
         </form>
     </body>
 </html>

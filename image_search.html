@@ -5,10 +5,22 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <p style="font-size: 20px;">Image search</p>
+        <div class="m-size">
+            <a class="index-link" href="index.html">Google Search</a>
+        </div>
+        <div class="center m-size logo">
+            <img src="googlelogo_img.png">
+        </div>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <input type="hidden" name="tbm" value="isch">
+            <div class="center m-size">
+                <div class="inner-div center">
+                    <input class="input-field center" type="text" name="q" maxlength="2048" autofocus>
+                </div>
+            </div>
+            <div class="center m-size">
+                <input class="btn center" type="submit" value="Image Search" >
+            </div>
         </form>
     </body>
 </html>
