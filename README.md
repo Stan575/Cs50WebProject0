@@ -1,8 +1,9 @@
-CS50’s Web Programming with Python and JavaScript
-Project0 :: Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
+## CS50W
+### Project 0 
 
-Specification
-Your website must meet the following requirements:
+### Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
+
+### Requirements:
 
 *   Your website should have at least three pages: one for regular Google Search (which must be called index.html), 
     one for Google Image Search, and one for Google Advanced Search.
